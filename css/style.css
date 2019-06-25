@@ -1,0 +1,274 @@
+/*calls everything to a property
+*{
+	margin: 0;
+	padding: 0;
+}
+*/
+body{
+	background-color: #f4f4f4;
+	color: #555555;
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	/*shorter way of doing above */
+	font:normal 12px Arial, Helvetica, sans-serif;
+
+	line-height: 1.6em;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	color:red;
+}
+
+a: active{
+	color: green;
+}
+
+a: visited{
+	color:yellow;
+}
+.clr{
+	clear: both;
+}
+.container{
+	width: 90%;
+	margin: auto;
+}
+.button {
+	background-color:black;
+	color:#fff;
+	padding: 10px 15px;
+	border:none;
+}
+
+.button:hover{
+	background-color: red;
+	color:blue;
+}
+.box-1{
+	width: 100%;
+	background-color: #333;
+	color: #fff;
+	border-width: 3px;
+	border-top-style:dotted;
+	border: 1px grey solid;
+	padding: 0px;
+	margin: 0px;
+	border-radius: 15px;
+	margin-bottom: 10px;
+
+
+}
+
+.box-1 h1{
+	font-family: tahoma;
+	font-size: 40px;
+	text-align: center;
+	font-weight: 1000;
+	letter-spacing: 0.2em;
+}
+.box-1 p{
+	text-align: center;
+}
+.box-2{
+	border:2px dotted #ccc;
+	padding: 25px;
+	margin: 0px 0;
+	border-radius: 15px;
+}
+.box-3{
+	margin:0px;
+	padding: 0px;
+	line-height: .5em;
+	text-align: center;
+}
+
+
+.box-2{
+	float: left;
+	width: 70%;
+	padding:15px;
+	box-sizing: border-box;
+}
+
+.box-3{
+	float: right;
+	width: 30%;
+	
+	color: black;
+	padding:15px;
+	box-sizing: border-box;
+}
+
+.box5{
+	background-color: blue;
+	margin:0px;
+	padding: 10px;
+	color:white;
+	border-radius: 15px;
+
+}
+/*cant get border to surround both elements!
+.boxy{
+	border:3px solid blue;
+	margin:2px;
+	padding: 2px;
+
+}
+*/
+.categories{
+	border:1px #ccc solid;
+	padding: 10px;
+	border-radius: 15px;
+	margin-bottom: 0px;
+	background-color: coral;
+}
+.categories h2{
+	text-align: center;
+	font: normal 30px Arial, Helvetica, sans-serif;
+
+}
+
+.categories ul{	
+	padding: 0;
+	padding-left: 20px;
+	list-style: none;
+	margin: 0;
+}
+
+.categories li{
+	padding-bottom: 6px;
+	border-bottom:dotted 1px #333;
+	list-style-image: url('check.png');
+
+}
+.myform{
+	padding: 20px;
+}
+.myform .fgroup{
+	padding-bottom: 15px;
+}
+
+.myform label{
+	display: block;
+}
+
+.myform input[type="text"], .myform textarea{
+	padding: 8px;
+	width: 100%;
+}
+
+.block{
+	float: left;
+	width: 25%;
+	min-height: 140px;
+	color: black;
+	border:1px dotted black;
+	padding: 10px;
+	box-sizing: border-box;
+	margin-bottom: 15px;
+	background-color: lightblue;
+	border-radius: 15px;
+}
+
+.block h3{
+	font:bold 20px sans-serif, Arial, Helvetica;
+	color: red;
+}
+#mainblock{
+	float: left;
+	width: 70%;
+	padding:15px;
+	box-sizing: border-box;
+	background-color: #b19cd9;
+	border-radius: 15px;
+	color: black;
+
+}
+
+#mainblock h1{
+	font-size: 18px;
+}
+#mainblock p{
+	font-size: 15px;
+}
+
+#sidebar{
+	float: right;
+	width: 30%;
+	background-color: blue;
+	color: white;
+	padding:15px;
+	box-sizing: border-box;
+	border-radius: 15px;
+
+}
+
+.pbox{
+	width: 100%;
+	min-height:120px;
+	border:1px solid grey;
+	margin-top: 40px;
+	position: relative;
+	background-image: url(bg.jpg);
+	background-repeat: no-repeat;
+	background-position: 100px 200px;
+	background-position: center;
+	text-align: center;
+	border-radius: 15px;
+
+}
+
+.pbox h1{
+	top:center;
+	color: white;
+	text-align: center;
+	line-height: 1.1em;
+	font-size: 40px;
+}
+
+
+
+.fixme {
+	position: fixed;
+	top: 400px;
+	border-radius: 5px;
+}
+.body2{
+	width: 100%;
+	height:center;
+	border:1px solid grey;
+	margin-top: 0px;
+	position: relative;
+	background-image: url(bg2.jpg);
+	background-repeat: no-repeat;
+	background-position: 100px 200px;
+	background-position: center;
+	text-align: left;
+	border-radius: 15px;
+}
+.body2 li{
+	color:black;
+	font-size: 19px;
+	list-style-image: url('check.png');
+}
+/*
+.mylist li:first-child{
+	background: red;
+}
+.mylist li:last-child{
+	background: blue;
+}
+.mylist li:nth-child(4){
+	background: yellow;
+}
+.mylist li:nth-child(odd){
+	background: purple;
+}
+*/
